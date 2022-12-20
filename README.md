@@ -1,17 +1,17 @@
 
 nikto
 =====
-[![alt text](https://cirt.net/images/patreon.png "Become a patron of Nikto!")](https://www.patreon.com/sullo)
+[![alt text](https://cirt.net/images/patreon.png "Become a patron of Nikto!")](https://www.patreon.com/trhacknon)
 
 
 Nikto web server scanner  - https://cirt.net/Nikto2
 
-Full documentation - https://github.com/sullo/nikto/wiki
+Full documentation - https://github.com/trhacknon/nikto/wiki
 
 Run normally:
 
 ~~~
-git clone https://github.com/sullo/nikto
+git clone https://github.com/trhacknon/nikto
 
 # Main script is in program/
 cd nikto/program
@@ -29,7 +29,7 @@ perl nikto.pl -h http://www.example.com
 Run as a Docker container:
 
 ~~~bash
-git clone https://github.com/sullo/nikto.git
+git clone https://github.com/trhacknon/nikto.git
 cd nikto
 docker build -t sullo/nikto .
 
